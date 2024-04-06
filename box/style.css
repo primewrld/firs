@@ -1,0 +1,105 @@
+@media screen and (max-width: 1020px) {
+  body {
+    background-color: hsl(30, 38%, 92%);
+  }
+  main {
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 20px;
+    height: inherit;
+    font-size: 25px;
+    font-family: "Montserrat";
+    padding-bottom: 20px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  #des {
+    display: none;
+  }
+  #mob {
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 100%;
+  }
+  p,
+  h3 {
+    text-align: left;
+    padding-left: 10px;
+    color: hsl(228, 12%, 48%);
+  }
+  h3 {
+    color: hsl(212, 21%, 14%);
+  }
+  #p {
+    text-decoration: line-through;
+  }
+  div {
+    display: flex;
+    gap: 20px;
+  }
+  #c {
+    color: hsl(158, 36%, 37%);
+  }
+
+  button {
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    width: 50%;
+    height: 30px;
+    font-size: 25px;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  body {
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+  }
+  main {
+    background-color: hsl(0, 0%, 100%);
+    text-align: center;
+    margin-top: 20px;
+    width: 375px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 25px;
+    font-family: "Montserrat";
+  }
+  #des {
+    width: 375px;
+    margin-top: 20px;
+    margin-left: 220px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  #mob {
+    display: none;
+  }
+  p,
+  h3 {
+    text-align: left;
+    padding-left: 10px;
+    color: hsl(228, 12%, 48%);
+    display: block;
+  }
+  h3 {
+    color: hsl(212, 21%, 14%);
+  }
+  #p {
+    text-decoration: line-through;
+  }
+  div {
+    display: flex;
+    gap: 20px;
+  }
+  #c {
+    color: hsl(158, 36%, 37%);
+  }
+
+  button {
+    border: none;
+    background-color: hsl(158, 36%, 37%);
+    width: 50%;
+    height: 30px;
+  }
+}
